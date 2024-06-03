@@ -1,7 +1,3 @@
-# Exemplo de aplicação contendo tecnologia de templates do Jinja, arquivos externos CSS e imagens. 
-
-## Autor: Fabrício Galende M. de Carvalho, PhD
-
 Para executar o sistema:
 
 1. Clonar o repositório
