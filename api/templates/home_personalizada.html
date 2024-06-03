@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block contents %}
+<p>Olá {{usuario}}! Esse template demonstra a criação de um conteúdo a partir da herança de um template básico.</p>
+<p>A {{p2.nome}} é uma {{p2.atividade}}</p>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Endereço</th>
+        <th>Formação</th>
+    </tr>
+    {% for pessoa in pessoas %}
+    <tr>
+        <td>{{ pessoa.nome }}</td>
+        <td>{{ pessoa.idade }}</td>
+        <td>{{ pessoa.endereco }}</td>
+        <td>{{ pessoa.formacao }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

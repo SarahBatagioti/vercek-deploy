@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    background-color: rgb(204, 216, 42);
+    color: white;
+    padding: 10px;
+}
+ul > li{
+    display: inline-block;
+    width: 30%;
+}
+
+a{
+    color: rgb(71, 71, 13);
+}
+a:visited{
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
